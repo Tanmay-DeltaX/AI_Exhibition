@@ -13,7 +13,7 @@ def third_window():
     questions__lst = ["10 Questions","15 Questions","20 Questions"]
     questions_Y=180
     
-    # screen.blit(background,background_rect)
+    screen.blit(background,background_rect)
     screen.blit(welcome_text,welcome_text_rect)
 
     pygame.draw.rect(screen,(0,255,0),pygame.Rect(360,20,480,50),3)
