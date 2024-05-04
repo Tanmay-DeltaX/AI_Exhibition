@@ -16,7 +16,7 @@ pygame.init()
 
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode((1200,750))
-screen.fill((70, 75, 128))
+
 
 
 pygame.display.set_caption("Human VS Bot Challenge")
