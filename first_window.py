@@ -14,7 +14,7 @@ def first_window():
     welcome_text_rect  = welcome_text.get_rect(center = (600,50))
     class_lst = ['CLASS 09',"CLASS 10","CLASS 11",'CLASS 12']
     class_Y=150
-    # screen.blit(background,background_rect)
+    screen.blit(background,background_rect)
     screen.blit(welcome_text,welcome_text_rect)
     pygame.draw.rect(screen,(0,255,0),pygame.Rect(360,20,480,50),3)  # draws a rectangle around the text'Human vs bot challenge'
 
